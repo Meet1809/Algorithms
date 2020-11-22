@@ -1,0 +1,66 @@
+
+/* deep's code */
+
+*,html,body{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  font-family: Arial;
+  box-sizing: border-box;
+}
+
+.body-class{
+  display: flex;
+
+}
+
+.side-menu{
+  width: 25%;
+  height: 100%;
+  background: rgb(252,100,3);
+  padding: 30px 0px;
+  position: fixed;
+}
+
+.side-menu h2{
+  color:white;
+  margin:0 10px 30px;
+}
+
+.side-menu ul li{
+  padding: 15px;
+  /* border-bottom: 1px solid rgba(0,0,0,0.05);
+  border-top: 1px solid rgba(255,255,255); */
+}
+
+.side-menu ul li a{
+  text-align: center;
+  color: white;
+  display: block;
+  font-size: 22px;
+  letter-spacing: 1px;
+}
+
+.main-div{
+    width: 100%;
+   margin-left: 25%;
+}
+
+.main-div h1{
+  text-align: center;
+  font-size: 50px;
+  margin: 30px 0px 50px;;
+
+}
+
+.main-div .content{
+  margin: 0 10%;
+}
+
+.content article{
+  font-size: 19px;
+  font-weight:lighter;
+  letter-spacing: 1px;
+  word-spacing: 1.5px;
+  margin-bottom: 30px;
+}
